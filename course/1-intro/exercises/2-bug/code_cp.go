@@ -2,10 +2,6 @@ package main
 
 import "fmt"
 
-func multiply(a float64, b float64) float64 {
-	return a * b
-}
-
 func main() {
 	messagesFromDoris := []string{
 		"You doing anything later??",
@@ -18,7 +14,7 @@ func main() {
 
 	// don't touch above this line
 
-	totalCost := multiply(costPerMessage, numMessages)
+	totalCost := costPerMessage + numMessages
 
 	// don't touch below this line
 
