@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	const premiumPlanName = "Premium Plan"
-	const basicPlanName = "Basic Plan"
+	premiumPlanName = "Basic Plan"
 
 	// don't edit below this line
 
